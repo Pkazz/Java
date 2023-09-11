@@ -1,0 +1,33 @@
+1. Napisać program, który wyświetli na konsoli:
+    Komunikat "Pif Paf" jak liczba z warunku jest podzielna przez 3 i 5
+    Komunikat "Pif" jak liczba z warunku jest podzielna przez 3
+    Komunikat "Paf" jak liczba z warunku jest podzielna przez 5
+    Wartość liczby jak żaden nie będzie prawdziwy
+
+    Przykładowo:
+        15 -> Pif Paf
+        10 -> Paf
+        6 -> Pif
+        11 -> 11
+
+2. Napisać program, który wyświetli na konsoli komunikat:
+    - "Gorączka" jak zmienna jest powyżej 36.8
+    - "Stabilnie" jak zmienna wynosi <36.4, 36.8>
+    - "Ochłodzenie" jak zmienna jest poniżej 36.4
+
+
+3. Program posiada 5 zmienne:
+    double amount = 300 // Ilość pieniędzy w PLN
+    double converterEUR = 4.42 // Wartość w PLN 1 EURO
+    double converterUSD = 4.01 // Wartość w PLN 1 USD
+    double converterYEN = 0.028 // Wartość w PLN 1 YEN
+    String currency = "EUR"
+
+    Nastęnie program podaje wynik amount/currency
+    przy czym posiadamy switch, który pozwoli nam wybrać walutę.
+    jeżeli podamy błędną walutę - dostaniemy komunikat "Nie rozpoznano waluty."
+
+4. Za pomocą pętli while wyświetlić wszystkie liczby podzielne przez 3 z przedziału <0, 60>.
+5. Za pomocą pętli while wyświetlić wszystkie potęgi liczby 3 od 0 do 10.
+*6. Za pomocą pętli while obliczyć silnię liczby n.
+ n! = n * (n-1) * (n-2) * (n-3) ... * 1
