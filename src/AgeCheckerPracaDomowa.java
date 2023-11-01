@@ -10,12 +10,14 @@ public class AgeCheckerPracaDomowa {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj swój wiek");
         int wiek = scanner.nextInt();
-        if (wiek < 18){
+        if (wiek <= 0){
+            System.out.println("Wiek nie może być wartością ujemną ani 0");
+        }
+         else if (wiek < 18){
             System.out.println("Nie możesz kupić alkocholu");
-        } else {
+        }
+         else {
             System.out.println("Dziękujemy za zakupy");
         }
-
-
     }
 }
