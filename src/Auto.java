@@ -1,10 +1,19 @@
 package src;
 
-public class Auto {
+
+public class Auto{
     public String marka;
     public String model;
     public Integer rok;
     public Integer przebieg;
+
+    public Auto(String marka,String model,Integer rok, Integer przebieg){
+        this.marka = marka;
+        this.model = model;
+        this.rok = rok;
+        this.przebieg = przebieg;
+    }
+
 
 
     public void jedz() {

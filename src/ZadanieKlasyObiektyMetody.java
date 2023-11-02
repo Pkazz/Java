@@ -3,12 +3,16 @@ package src;
 public class ZadanieKlasyObiektyMetody {
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+
+
         Student Bartek = new Student();
         Bartek.imie = "Bartek";
         Bartek.email = "Barte@gmail.com";
         Bartek.nrIndeksu = 123432;
         Bartek.nazwisko = "Bobain";
         Bartek.nick = "Hur";
+        String uczelniaBarta = Bartek.nazwaUczelni;
 
         Student Mariola = new Student();
         Mariola.imie = "Mariola";
@@ -30,6 +34,7 @@ public class ZadanieKlasyObiektyMetody {
         studenci[2] = Edward;
 
         for (int  i=0; i < studenci.length; i++){
+            Student.infoUczelnia();
         studenci[i].przedstawSie();
         studenci[i].zalogujSie();
         studenci[i].podajNrIndeksu();

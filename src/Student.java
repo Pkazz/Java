@@ -9,6 +9,12 @@ public class Student {
 
     public int nrIndeksu;
 
+    public static String nazwaUczelni = "AGH";
+
+    public static void infoUczelnia() {
+        System.out.println("Moja uczelnia to UP");
+    }
+
     public void przedstawSie() {
         System.out.println("Nazywam sie " + imie + " " + nazwisko);
     }
